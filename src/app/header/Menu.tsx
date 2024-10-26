@@ -84,7 +84,7 @@ export default function Menu() {
             <motion.div variants={itemVariants} className="text-white text-lg mb-8">
                 <Link href="/menu/snack"  onClick={toggleMenu} >Snack & Soft Drink</Link>
             </motion.div>
-            <motion.div variants={itemVariants} className="text-white text-lg m7-8">
+            <motion.div variants={itemVariants} className="text-white text-lg mb-24">
                 <Link href="/menu/alcohol"  onClick={toggleMenu} >Alcohol</Link>
             </motion.div>
       </motion.div>
