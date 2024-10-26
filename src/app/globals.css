@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NanumGothic";
+  src: url("/fonts/NanumGothic.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "NanumGothic";
+  background-color: #003c22;
+}
+
+body p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.bg-repeat {
+  background-color: #003c22;
+}
+
+.image-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadein 3s;
+}
+
+@media (max-width: 500px) {
+  .image-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadein 3s;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
