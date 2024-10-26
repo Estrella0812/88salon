@@ -189,8 +189,7 @@ export default function Snack() {
             <div className="my-6">
               <div className="flex justify-between">
                 <div className="flex">
-                  치즈불닭{" "}
-                  <img src="/image/r_peper1.png" className="ml-1 w-8"></img>
+                  치즈불닭
                 </div>
                 <div>$25.88</div>
               </div>
