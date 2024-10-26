@@ -39,7 +39,7 @@ export default function Menu() {
       opacity: 1,
       transition: { 
         type: 'spring',
-        duration: 0.2, 
+        duration: 0.1, 
         stiffness: 90
     },
     },
