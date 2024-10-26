@@ -42,6 +42,9 @@ export default function Header() {
         
         <div className="flex md:hidden">
           <Menu />
+          <div className=" px-2 mt-3.5 text-white">
+            <div>MENU</div>
+          </div>
         </div>
 
       </div>

@@ -56,16 +56,22 @@ export default function Alcohol() {
               <div className="flex">
                 <div>DRAFT BEER</div>
               </div>
-              <div className="flex justify-between mx-6 text-sm">
-                <div className="py-1">Sapporo</div>
-                <div className="py-1">Pint $8.88 Pitcher $24.88</div>
-              </div>
-              <div className="flex justify-between mx-6 text-sm">
-                <div>
-                  <div className="pt-1">Sapporo Black</div>
-                  <div className="pb-1">(Seasonal)</div>
+              <div className="flex justify-between mx-6 text-sm pt-1 pb-2">
+                <div>Sapporo</div>
+                <div className="flex flex-col">
+                  <div>Pint $8.88</div>
+                  <div>Pitcher $24.88</div>
                 </div>
-                <div className="py-1">Pint $9.88 Pitcher $25.88</div>
+              </div>
+              <div className="flex justify-between mx-6 text-sm py-1">
+                <div className="flex flex-col">
+                  <div>Sapporo Black</div>
+                  <div>(Seasonal)</div>
+                </div>
+                <div className="flex flex-col">
+                  <div>Pint $9.88</div>
+                  <div>Pitcher $25.88</div>
+                </div>
               </div>
             </div>
             <div className="my-4">
@@ -101,7 +107,7 @@ export default function Alcohol() {
               </div>
               <div className="flex justify-between mx-6 text-sm">
                 <div className="py-1">Momokawa Diamond</div>
-                <div className="py-1">50.88</div>
+                <div className="py-1">$50.88</div>
               </div>
             </div>
           </div>
